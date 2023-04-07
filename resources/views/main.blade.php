@@ -6,7 +6,7 @@
     <!-- CSS only -->
     <link rel="icon" href="icons-tasklist.png" type="image/x-icon"/>
     <link type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" media="screen" type="text/css"/>
+    <link href="{{asset('style.css')}}" rel="stylesheet" media="screen" type="text/css"/>
 </head>
 <body>
 @include('header')
